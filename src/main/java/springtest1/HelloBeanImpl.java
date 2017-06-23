@@ -1,6 +1,6 @@
 package springtest1;
 
-public class HelloBeanImpl {
+public class HelloBeanImpl implements HelloBean{
 	private String title;
 	private String message;
 	
