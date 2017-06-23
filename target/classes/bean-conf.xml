@@ -2,6 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="hellobean" class="springtest1.HelloBean" />
-
+	<bean id="hellobean" class="springtest1.HelloBean" >
+		<property name="title" value="TITLE!!" />
+		<property name="message" value="this is a message" />
+	</bean>
 </beans>
